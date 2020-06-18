@@ -1,0 +1,23 @@
+{
+    "name": "news-server",
+    "version": "1.0.0",
+    "description": "A Novel taskmanagement application",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js",
+      "dev2": "nodemon index_try.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "ejs": "^3.0.1",
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.3"
+    }
+  }
+  
